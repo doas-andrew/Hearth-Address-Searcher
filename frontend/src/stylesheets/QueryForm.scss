@@ -1,0 +1,63 @@
+$accent: #2897D3;
+
+.query-container {
+    margin: 5vw;
+    text-align: center;
+}
+
+.query-initial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.query-initial-inner {
+    display: inline;
+    align-self: center;
+    text-align: left;
+}
+
+.toggle-advanced {
+    display: inline-block;
+    cursor: pointer;
+    color: $accent;
+}
+
+.query-general {
+    width: 25vw;
+}
+
+.price-input {
+    margin: 0 10px;
+    width: 10vw;
+}
+
+.year-input {
+    margin: 0 10px;
+    width: 6vw;
+}
+
+.area-input {
+    margin: 0 10px;
+    width: 8vw;
+}
+
+.b-input {
+    margin: 0 10px;
+    width: 4vw;
+}
+
+.advanced-container {
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: rgb(245, 245, 245);
+}
+
+.advanced-section {
+    display: flex;
+    justify-content: space-evenly;
+
+    &.adv-bot { margin: 20px 0 0; }
+}

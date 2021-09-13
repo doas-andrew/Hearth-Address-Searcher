@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nanoexpress": "^5.1.0",
+    "papaparse": "^5.3.1",
+    "pg": "^8.7.1",
+    "pgtools": "^0.3.2",
+    "postgres": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  }
+}
